@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .menu-icon {
@@ -52,6 +53,7 @@ body {
     cursor: pointer;
     display: none;
    margin-left: 90%;
+
 }
 
 .menu {
@@ -78,6 +80,7 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
     width: 100%;
+
 }
 .header .carita{
     width: 110px;
@@ -243,7 +246,10 @@ body {
 
 .footer{
     display: flex;
-    height: 160px;
+    align-items: flex-start;
+    height: 100px;
+    margin-top: -40px;
+    margin-bottom: 40px;
  
 
 }
@@ -253,10 +259,12 @@ list-style-type: none;
 text-decoration: none;
 font-weight: 500;
 margin-top: 60px;
-margin-left: 60%;
+margin-left: 5%;
+animation: titilar 4s infinite;
 }
 .footer a i{
     font-size: 1.5rem;
+
 }
 .footer a:hover{
     color: rgb(255, 133, 228);
@@ -283,6 +291,7 @@ margin-left: 60%;
         display: flex;
         opacity: 1;
         pointer-events: auto;
+
     }
 
     .menu a {
@@ -296,6 +305,11 @@ margin-left: 60%;
 
     .menu-icon {
         display: block;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
     }
 }
 
@@ -311,4 +325,8 @@ margin-left: 60%;
         width: 80%;
        
     }
+    .menu-icon{
+        margin-left: 90%;
+    }
+
 }

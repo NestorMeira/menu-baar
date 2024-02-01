@@ -1,6 +1,6 @@
 const scrollToTop = () => {
     window.scrollTo({
-      top: 200,
+      top: 50,
       behavior: 'smooth',
     });
   };
