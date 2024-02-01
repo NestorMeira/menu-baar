@@ -27,7 +27,7 @@ body {
     position: -webkit-sticky; 
     position: sticky; 
     top:400px;
-    margin-left: 87%;
+    margin-left: 90%;
     z-index: 3;
     animation: titilar 4s infinite;
    
